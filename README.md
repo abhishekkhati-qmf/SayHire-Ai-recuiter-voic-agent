@@ -7,7 +7,7 @@ Supabase is used for authentication and real-time session storage, allowing **dy
 ## 📸 Screenshots
 
 ### Homepage
-![SayHire Homepage](public/HomePage(2).png)
+![SayHire Homepage](public/Homepage(2).png)
 
 ## 🚀 Features
 
