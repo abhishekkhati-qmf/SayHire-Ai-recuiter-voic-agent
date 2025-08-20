@@ -4,6 +4,10 @@ SayHire is an **AI-powered voice recruitment agent** designed to automate candid
 Built with **Next.js**, **React**, **Vapi API**, and **Supabase**, it enables **real-time, natural voice conversations** that simulate human recruiters using intelligent prompt chaining.  
 Supabase is used for authentication and real-time session storage, allowing **dynamic candidate management**, while the **Paddle payment gateway** is integrated for secure and seamless transactions.  
 
+## 🚀 Deployment
+
+You can check out the live app here: [Live Demo](https://skill-verse-front-end-f5pu.vercel.app/)
+
 ## 📸 Screenshots
 
 ### Homepage
