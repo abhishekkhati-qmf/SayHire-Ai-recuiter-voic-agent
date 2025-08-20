@@ -146,7 +146,6 @@ function InterviewCard({ interview, viewDetail = false, onDelete }) {
           <Link
             href={`/recruiter/scheduled-interview/${interview?.interview_id}/details`}
             passHref
-            legacyBehavior
           >
             <Button
               as="a"

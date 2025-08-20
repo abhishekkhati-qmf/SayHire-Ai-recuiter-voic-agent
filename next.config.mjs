@@ -1,3 +1,8 @@
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -8,10 +13,8 @@ const nextConfig = {
       'zvlbcadrwnbjbtulqvfl.supabase.co'
     ],
   },
-  output: "standalone",   // 👈 important for Vercel builds
-  experimental: {
-    appDir: true,          // 👈 only if you are using /app router
-  },
+  output: "standalone", 
+  outputFileTracingRoot: path.join(__dirname),   // 👈 important for Vercel builds
 };
 
 export default nextConfig;
