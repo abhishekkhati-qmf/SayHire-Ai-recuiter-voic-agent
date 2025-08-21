@@ -1,3 +1,4 @@
+'use client';
 import { UserAuth } from "@/context/AuthContext";
 import { redirect } from "next/navigation";
 
