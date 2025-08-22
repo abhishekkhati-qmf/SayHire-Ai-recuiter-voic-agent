@@ -98,7 +98,7 @@ export default function Billing() {
       transactionId: data.txn,
       settings: {
         theme: "light",
-        successUrl: `${process.env.NEXTAUTH_URL}/recruiter/dashboard`,
+        successUrl: `https://say-hire-ai-recuiter-voic-agent-abhishek-khatis-projects.vercel.app/recruiter/dashboard`,
       },
     });
   };
