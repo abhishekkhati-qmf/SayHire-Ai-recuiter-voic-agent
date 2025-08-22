@@ -6,7 +6,7 @@ Supabase is used for authentication and real-time session storage, allowing **dy
 
 ## 🚀 Deployment
 
-You can check out the live app here: [Live Demo](https://skill-verse-front-end-f5pu.vercel.app/)
+You can check out the live app here: [Live Demo](https://say-hire-ai-recuiter-voic-agent-abhishek-khatis-projects.vercel.app/)
 
 ## 📸 Screenshots
 
