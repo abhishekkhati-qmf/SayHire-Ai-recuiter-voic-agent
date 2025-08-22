@@ -98,7 +98,7 @@ export default function Billing() {
       transactionId: data.txn,
       settings: {
         theme: "light",
-        successUrl: "http://localhost:3000/recruiter/dashboard",
+        successUrl: `${process.env.NEXTAUTH_URL}/recruiter/dashboard`,
       },
     });
   };
