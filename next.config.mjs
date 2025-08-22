@@ -14,7 +14,7 @@ const nextConfig = {
     ],
   },
   output: "standalone", 
-  outputFileTracingRoot: path.join(__dirname),   // 👈 important for Vercel builds
+  outputFileTracingRoot: __dirname,
 };
 
 export default nextConfig;
